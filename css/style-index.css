@@ -22,9 +22,25 @@ main{
     background-color: rgb(111, 96, 121); color: white
 }
 
-.section-principal{
-    font-size: 80px;
+.perfil-profesional{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
 }
+
+#foto-perfil{
+    display: flex;
+    width: 450px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+
+#parrafo-perfil{
+    text-align: center;
+}
+
  
 h2{
     text-align: center;
@@ -36,9 +52,6 @@ footer{
     text-align: center; ;
 }
 
-#parrafo-perfil{
-    text-align: center;
-}
 
 a{
     color: white;
