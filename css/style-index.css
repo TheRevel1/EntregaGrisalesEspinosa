@@ -91,6 +91,18 @@ footer {
     ;
 }
 
+#linkedin-logo {
+    width: 50px;
+}
+
+#whats-logo {
+    width: 45px;
+}
+
+#insta-logo {
+    width: 40px;
+}
+
 
 a {
     color: white;
