@@ -75,6 +75,11 @@ h2 {
     font-size: 2em;
 }
 
+.carrusel-hobbies {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
 footer {
     background-color: rgb(83, 83, 83);
     color: white;
