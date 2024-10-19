@@ -33,6 +33,10 @@ main {
     justify-content: center;
 }
 
+#titulo-perfil {
+    font-size: 80px;
+}
+
 #foto-perfil {
     display: flex;
     width: 450px;
