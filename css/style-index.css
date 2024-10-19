@@ -35,6 +35,7 @@ main {
 
 #titulo-perfil {
     font-size: 80px;
+    text-align: center;
 }
 
 #foto-perfil {
@@ -74,21 +75,22 @@ main {
 }
 
 
-h2 {
+#titulo-gustos {
     text-align: center;
-    font-size: 2em;
+    font-size: 70px;
 }
 
 .carrusel-hobbies {
     padding-left: 200px;
     padding-right: 200px;
+    margin-bottom: 70px;
 }
 
 footer {
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(54, 54, 54);
     color: white;
     text-align: center;
-    ;
+    border-top: 2px solid white;
 }
 
 #linkedin-logo {
