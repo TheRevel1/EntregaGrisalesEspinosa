@@ -26,8 +26,11 @@ main {
     color: white
 }
 
-#titulo-perfil {
-    border-top: 2px solid white; 
+.titulo-perfil {
+    border-top: 2px solid white;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 #foto-perfil {
@@ -38,7 +41,10 @@ main {
 }
 
 .perfil-profesional {
+    font-style: italic;
+    text-align: justify;
     display: flex;
+    font-size: 22px;
     flex-direction: row-reverse;
     margin-left: 100px;
     margin-right: 100px;

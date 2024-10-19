@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae | Juan Pablo Grisales Espinosa</title>
+    <!-- Link BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Link CSS -->
     <link rel="stylesheet" href="./css/style-index.css">
 </head>
 
@@ -23,7 +26,9 @@
         </nav>
     </header>
     <main>
-        <h2 id="titulo-perfil">PERFIL PROFESIONAL</h2>
+        <section class="titulo-perfil">
+            <h2 id="titulo-perfil">PERFIL PROFESIONAL</h2>
+        </section>
 
         <section class="perfil-profesional">
             <!-- El texto debe ir a la izquierda y la imagen a la derecha-->
@@ -32,12 +37,11 @@
 
             <p id="parrafo-perfil">"Durante los últimos siete años, mi trayectoria profesional ha estado dedicada al
                 servicio al cliente, durante el cual he adquirido habilidades y atributos invaluables esenciales para el
-                éxito en este campo. Mi enfoque es mantener una actitud positiva constante frente a los desafíos, una
-                cualidad que he encontrado indispensable para promover interacciones positivas con los clientes.
-                Mi experiencia en servicio al cliente me ha inculcado una sólida ética de trabajo, gran atención al
+                éxito en este campo. <br> Mi enfoque es mantener una actitud positiva constante frente a los desafíos, una
+                cualidad que he encontrado indispensable para promover interacciones positivas con los clientes.Mi experiencia en servicio al cliente me ha inculcado una sólida ética de trabajo, gran atención al
                 detalle y la capacidad de manejar tareas de manera eficiente. Estas cualidades, combinadas con la
                 dedicación a brindar un servicio de alta calidad, me han permitido consistentemente lograr objetivos
-                positivos en equipo.
+                positivos en equipo.<br>
                 Una de mis fortalezas radica en mi capacidad para adoptar enfoques innovadores para la resolución de
                 conflictos, buscando soluciones creativas que no solo aborden los desafíos sino que también fomenten
                 resultados positivos para todas las partes involucradas."</p>     
@@ -49,13 +53,47 @@
 
         <section>
             <h2>GUSTOS PERSONALES Y HOBBIES</h2>
-            <ul>
-                <li>gustos personales y hobbies</li>
-                <li>gustos personales y hobbies</li>
-                <li>gustos personales y hobbies</li>
-                <li>gustos personales y hobbies</li>
-                <li>gustos personales y hobbies</li>
-            </ul>
+        </section>
+        
+        <section>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/videojuegos.png" class="d-block w-100" alt="foto videojuegos">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Videojuegos</h5>
+                  <p>Aqui hablo sobre videojuegos</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/escritura.png" class="d-block w-100" alt="foto escritura">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Escritura</h5>
+                  <p>Aqui hablo sobre escritura</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/restaurantes.png" class="d-block w-100" alt="foto restaurantes">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Restaurantes</h5>
+                  <p>Aqui hablo sobre restaurantes</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </section>
     </main>
 
@@ -67,6 +105,8 @@
         <img src="./assets/tamano-fotos-redes-sociales-1.png" alt="redes-sociales" width="200px">
     </footer>
 
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
