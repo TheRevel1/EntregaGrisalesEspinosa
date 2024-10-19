@@ -26,6 +26,10 @@ main {
     color: white
 }
 
+#titulo-perfil {
+    border-top: 2px solid white; 
+}
+
 #foto-perfil {
     display: flex;
     width: 450px;
