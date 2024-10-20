@@ -2,10 +2,15 @@ html{
     font-size: 20px;
 }
 
-div{
+.antes-head {
     background-color: rgb(54, 54, 54); color: white; text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: 2px solid white;
+}
+
+div {
+    background-color: rgb(54, 54, 54); color: white; text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
