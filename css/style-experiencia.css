@@ -32,9 +32,9 @@ h2{
 }
 
 .grid-container {
-    border: 3px solid white;
     margin: 100px;
     margin-top: 20px;
+    margin-bottom: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 50px repeat(2, 100px);
@@ -43,22 +43,90 @@ h2{
 }
 
 .grid-item-01 {
-    background-color: red;
+    background-color: rgb(83, 83, 83); color: white;
     grid-column: 1/4;
     grid-row: 1/2;
+    border-radius: 5px;
 }
 
 .grid-item-02 {
-    background-color: yellow;
+    background-color: rgb(83, 83, 83); color: white;
     grid-column: 1/2;
     grid-row: 2/4;
+    border-radius: 5px;
 }
 
 .grid-item-03 {
-    background-color: blue;
+    background-color: rgb(83, 83, 83); color: white;
     grid-column: 2/4;
     grid-row: 2/4;
+    border-radius: 5px;
 }
+
+.grid-container-02 {
+    margin: 100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px repeat(2, 100px);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.grid-item-04 {
+    background-color: rgb(83, 83, 83); color: white;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    border-radius: 5px;
+}
+
+.grid-item-05 {
+    background-color: rgb(83, 83, 83); color: white;
+    grid-column: 1/2;
+    grid-row: 2/4;
+    border-radius: 5px;
+}
+
+.grid-item-06 {
+    background-color: rgb(83, 83, 83); color: white;
+    grid-column: 2/4;
+    grid-row: 2/4;
+    border-radius: 5px;
+}
+
+.grid-container-03 {
+    margin: 100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px repeat(2, 100px);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.grid-item-07 {
+    background-color: rgb(83, 83, 83); color: white;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    border-radius: 5px;
+}
+
+.grid-item-08 {
+    background-color: rgb(83, 83, 83); color: white;
+    grid-column: 1/2;
+    grid-row: 2/4;
+    border-radius: 5px;
+}
+
+.grid-item-09 {
+    background-color: rgb(83, 83, 83); color: white;
+    grid-column: 2/4;
+    grid-row: 2/4;
+    border-radius: 5px;
+}
+
 
 footer {
     background-color: rgb(54, 54, 54);
