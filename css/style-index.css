@@ -41,6 +41,7 @@ main {
 
 #foto-perfil {
     display: flex;
+    height: auto;
     width: 450px;
     padding-left: 10px;
     border-radius: 20px;
