@@ -116,3 +116,9 @@ footer {
 a {
     color: white;
 }
+
+/* MEDIA QUERY */
+
+@media (max: 768px) {
+    
+}
