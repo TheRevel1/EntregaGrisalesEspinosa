@@ -12,6 +12,8 @@ header{
     background-color: rgb(83, 83, 83); color: white;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid white;
+    padding: 20px;
 }
 
 body{
