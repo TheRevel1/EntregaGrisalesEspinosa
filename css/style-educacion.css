@@ -46,6 +46,77 @@ h2{
     font-size: 2em;
 }
 
+.grid-container {
+    margin: 100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50px repeat(2, 100px);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.grid-item-01 {
+    background-color: rgb(83, 83, 83); color: white;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;   
+    text-align: center;      
+}
+
+#stanley-titulo {
+    display: flex;
+    justify-content: center;  
+    align-items: center;   
+    text-align: center;
+}
+
+.grid-item-02 {
+    background-color: rgb(83, 83, 83); color: white;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-item-03 {
+    background-color: rgb(83, 83, 83); color: white;
+    grid-column: 1/2;
+    grid-row: 2/4;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#parrafo-stanley {
+    font-size: 15px;
+    margin: 20px;
+}
+
+.grid-item-04 {
+    background-color: rgb(83, 83, 83); color: white;
+    grid-column: 2/4;
+    grid-row: 2/4;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#parrafo-stanley {
+    font-size: 15px;
+    margin: 20px;
+}
+
+
+
 footer {
     background-color: rgb(54, 54, 54);
     color: white;
