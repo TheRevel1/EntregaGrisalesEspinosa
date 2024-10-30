@@ -30,6 +30,18 @@ main{
     background-color: rgb(111, 96, 121); color: white
 }
 
+.titulo-perfil {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#titulo-perfil {
+    text-align: center;
+}
+
 .section-principal{
     font-size: 80px;
 }

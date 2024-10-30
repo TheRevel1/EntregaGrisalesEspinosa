@@ -21,6 +21,18 @@ body{
     font-family:'Courier New', Courier, monospace ;
 }
 
+.titulo-perfil {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#titulo-perfil {
+    text-align: center;
+}
+
 main{
     background-color: rgb(111, 96, 121); color: white
 }
