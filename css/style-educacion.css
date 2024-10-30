@@ -68,7 +68,7 @@ h2{
     text-align: center;      
 }
 
-#stanley-titulo {
+#estado-titulo {
     display: flex;
     justify-content: center;  
     align-items: center;   
@@ -123,11 +123,6 @@ h2{
     background-color: rgb(83, 83, 83); color: white;
     text-align: left;
     border-bottom: 0px;
-}
-
-#parrafo-stanley {
-    font-size: 15px;
-    margin: 20px;
 }
 
 .grid-item-04 {
