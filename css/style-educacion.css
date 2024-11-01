@@ -155,19 +155,48 @@ h2 {
     padding-right: 200px;
 }
 
+section.habilidades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 div.grid-item-05 {
     border: 2px solid white;
 }
 
 div.español {
     margin: 20px;
-    width: 300px;
+    width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #español-colombia {
+    height: auto;
+    width: 26%;
+    margin: 15px;
+}
+
+#icono-estrella {
+    height: auto;
+    width: 25%;
+}
+
+div#estrellas {
+    margin-left: 2px;
+}
+
+div.ingles {
+    margin: 20px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ingles-img {
     height: auto;
     width: 26%;
     margin: 15px;
