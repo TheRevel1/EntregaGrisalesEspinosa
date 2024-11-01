@@ -19,6 +19,11 @@ header {
     padding: 20px;
 }
 
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 body {
     background-color: rgb(111, 96, 121);
     font-family: 'Courier New', Courier, monospace;
