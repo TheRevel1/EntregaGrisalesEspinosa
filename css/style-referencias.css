@@ -1,15 +1,18 @@
-html{
+html {
     font-size: 20px;
 }
 
-div{
-    background-color: rgb(54, 54, 54); color: white; text-align: center;
+div {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: 2px solid white;
 }
 
-header{
-    background-color: rgb(83, 83, 83); color: white;
+header {
+    background-color: rgb(83, 83, 83);
+    color: white;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-bottom: 2px solid white;
@@ -22,13 +25,14 @@ nav {
 }
 
 
-body{
+body {
     background-color: rgb(111, 96, 121);
-    font-family:'Courier New', Courier, monospace ;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-main{
-    background-color: rgb(111, 96, 121); color: white
+main {
+    background-color: rgb(111, 96, 121);
+    color: white
 }
 
 .titulo-perfil {
@@ -44,14 +48,65 @@ main{
     font-size: 100px;
 }
 
-.section-principal{
+.section-principal {
     font-size: 80px;
 }
- 
-h2{
+
+h2 {
     text-align: center;
     font-size: 2em;
 }
+
+.miguel-seccion {
+    background-color: rgb(111, 96, 121);
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    border-bottom: 2px white;
+}
+
+.miguel-fotosec {
+    background-color: rgb(111, 96, 121);
+    align-items: center;
+    font-size: 40px;
+    border-bottom: 0px;
+}
+
+#miguel-foto {
+    height: auto;
+    width: 450px;
+    border-radius: 20px;
+}
+
+.miguel-parrafo {
+    background-color: rgb(111, 96, 121);
+    font-style: italic;
+    text-align: justify;
+    text-align: left;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 0px;
+}
+
+#miguel-parrafo {
+    font-size: 25px;
+}
+
+.miguel-audio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#miguel-audio {
+    width: 1000px;
+}
+
+
+
 
 footer {
     background-color: rgb(54, 54, 54);
