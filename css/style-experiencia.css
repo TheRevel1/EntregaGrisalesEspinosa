@@ -418,7 +418,7 @@ a {
         margin-right: 10px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 50px 250px 450px;
+        grid-template-rows: 50px 250px 350px;
         row-gap: 10px;
         column-gap: 0px;
     }
