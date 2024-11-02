@@ -57,6 +57,8 @@ h2 {
     font-size: 2em;
 }
 
+/*SECCION MIGUEL*/
+
 .miguel-seccion {
     background-color: rgb(111, 96, 121);
     display: flex;
@@ -107,8 +109,164 @@ h2 {
     margin-bottom: 25px;
 }
 
+/*SECCION DIEGO*/
+
+.diego-seccion {
+    background-color: rgb(111, 96, 121);
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    border-bottom: 2px white;
+}
+
+.diego-fotosec {
+    background-color: rgb(111, 96, 121);
+    align-items: center;
+    font-size: 40px;
+    border-bottom: 0px;
+}
+
+#diego-foto {
+    height: auto;
+    width: 450px;
+    border-radius: 20px;
+}
+
+.diego-parrafo {
+    background-color: rgb(111, 96, 121);
+    font-style: italic;
+    text-align: justify;
+    text-align: left;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 0px;
+}
+
+#diego-parrafo {
+    font-size: 25px;
+}
+
+.diego-audio {
+    background-color: rgb(111, 96, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#diego-audio {
+    width: 1000px;
+    margin-bottom: 25px;
+}
+
+/*SECCION CRISTIAN*/
+
+.cristian-seccion {
+    background-color: rgb(111, 96, 121);
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    border-bottom: 2px white;
+}
+
+.cristian-fotosec {
+    background-color: rgb(111, 96, 121);
+    align-items: center;
+    font-size: 40px;
+    border-bottom: 0px;
+}
+
+#cristian-foto {
+    height: auto;
+    width: 450px;
+    border-radius: 20px;
+}
+
+.cristian-parrafo {
+    background-color: rgb(111, 96, 121);
+    font-style: italic;
+    text-align: justify;
+    text-align: left;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 0px;
+}
+
+#cristian-parrafo {
+    font-size: 25px;
+}
+
+.cristian-audio {
+    background-color: rgb(111, 96, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cristian-audio {
+    width: 1000px;
+    margin-bottom: 25px;
+}
 
 
+/*SECCION BRYAN*/
+
+.bryan-seccion {
+    background-color: rgb(111, 96, 121);
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    border-bottom: 2px white;
+}
+
+.bryan-fotosec {
+    background-color: rgb(111, 96, 121);
+    align-items: center;
+    font-size: 40px;
+    border-bottom: 0px;
+}
+
+#bryan-foto {
+    height: auto;
+    width: 450px;
+    border-radius: 20px;
+}
+
+.bryan-parrafo {
+    background-color: rgb(111, 96, 121);
+    font-style: italic;
+    text-align: justify;
+    text-align: left;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 0px;
+}
+
+#bryan-parrafo {
+    font-size: 25px;
+}
+
+.bryan-audio {
+    background-color: rgb(111, 96, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bryan-audio {
+    width: 1000px;
+    margin-bottom: 25px;
+}
+
+/*FIN SECCION REFERENCIAS*/
 
 footer {
     background-color: rgb(54, 54, 54);
