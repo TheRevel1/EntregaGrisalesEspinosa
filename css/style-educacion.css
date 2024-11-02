@@ -10,7 +10,9 @@ div {
 }
 
 .antes-head {
-    background-color: rgb(54, 54, 54); color: white; text-align: center;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: 2px solid white;
 }
@@ -62,6 +64,8 @@ h2 {
     text-align: center;
     font-size: 2em;
 }
+
+/*SECCION GRID*/
 
 .grid-container {
     margin: 100px;
@@ -327,7 +331,7 @@ div.computacion {
     border-radius: 10px;
 }
 
-
+/*FIN SECCION GRID*/
 
 footer {
     background-color: rgb(54, 54, 54);
@@ -354,8 +358,275 @@ a {
 }
 
 @media (min-width: 100px) and (max-width: 1000px) {
-    
+
     nav {
         display: block;
     }
+
+    #titulo-perfil {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    /*SECCION GRID*/
+
+    .grid-container {
+        margin-top: 2px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 60px 500px 60px 500px 250px;
+        column-gap: 0px;
+        row-gap: 25px;
+    }
+
+    .grid-item-01 {
+        background-color: rgb(83, 83, 83);
+        color: white;
+        grid-column: 1/3;
+        grid-row: 1/2;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #estado-titulo {
+        display: block;
+    }
+
+    div.grid-item-03 {
+        background-color: rgb(83, 83, 83);
+        grid-column: 1/3;
+        grid-row: 2/3;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #icono-graduado {
+        height: auto;
+        width: 150px;
+        display: block;
+        margin: 0px;
+        padding-bottom: 0px;
+    }
+
+    .texto-completados {
+        font-size: 20px;
+        background-color: rgb(83, 83, 83);
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        display: block;
+    }
+
+    .grid-item-02 {
+        background-color: rgb(83, 83, 83);
+        color: white;
+        grid-column: 1/3;
+        grid-row: 3/4;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-bachiller {
+        background-color: rgb(83, 83, 83);
+        color: white;
+        text-align: left;
+        border-bottom: 0px;
+    }
+
+    .section-tecnologia {
+        background-color: rgb(83, 83, 83);
+        color: white;
+        text-align: left;
+        border-bottom: 0px;
+    }
+
+    .grid-item-04 {
+        background-color: rgb(83, 83, 83);
+        color: white;
+        grid-column: 1/3;
+        grid-row: 4/5;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .grid-item-05 {
+        display: block;
+        background-color: rgb(83, 83, 83);
+        grid-column: 1/3;
+        grid-row: 5/6;
+        border-radius: 5px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    section.habilidades-01 {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    div.español {
+        background-color: rgb(83, 83, 83);
+        margin: 1px;
+        width: 50%;
+        display: block;
+    }
+
+    #español-colombia {
+        height: auto;
+        width: 50%;
+        margin: 1px;
+    }
+
+    #icono-estrella {
+        height: auto;
+        width: 25%;
+    }
+
+    div#estrellas {
+        background-color: rgb(83, 83, 83);
+        margin-left: 0px;
+    }
+
+    div.ingles {
+        background-color: rgb(83, 83, 83);
+        margin: 1px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #ingles-img {
+        height: auto;
+        width: 50%;
+        margin: 1px;
+        border-radius: 10px;
+    }
+
+    section.habilidades-02 {
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    div.ap-soft {
+        background-color: rgb(83, 83, 83);
+        margin: 20px;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    #micro-img {
+        height: auto;
+        width: 20%;
+        margin: 15px;
+        border-radius: 10px;
+    }
+
+    div.suite-adobe {
+        background-color: rgb(83, 83, 83);
+        margin: 20px;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #adobe-icono {
+        height: auto;
+        width: 20%;
+        margin: 15px;
+        border-radius: 10px;
+    }
+
+    div.salesforce {
+        background-color: rgb(83, 83, 83);
+        margin: 20px;
+        width: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #sales-icono {
+        height: auto;
+        width: 25%;
+        margin: 15px;
+        border-radius: 10px;
+    }
+
+    section.habilidades-03 {
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.zendesk {
+        background-color: rgb(83, 83, 83);
+        margin: 20px;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #zendesk-icono {
+        height: auto;
+        width: 25%;
+        margin: 15px;
+        border-radius: 10px;
+    }
+
+    div.sap {
+        background-color: rgb(83, 83, 83);
+        margin: 20px;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #sap-icono {
+        height: auto;
+        width: 25%;
+        margin: 15px;
+        border-radius: 10px;
+    }
+
+    div.computacion {
+        background-color: rgb(83, 83, 83);
+        margin: 20px;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #compu-icono {
+        height: auto;
+        width: 25%;
+        margin: 15px;
+        border-radius: 10px;
+    }
+
+    /*FIN SECCION GRID*/
+
 }
