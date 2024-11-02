@@ -133,6 +133,10 @@ a {
 
 @media (min-width: 100px) and (max-width: 1000px) {
 
+    nav {
+        display: block;
+    }
+
     .titulo-perfil {
         text-decoration: none;
         justify-content: center;
