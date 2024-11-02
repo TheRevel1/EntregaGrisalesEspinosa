@@ -2,6 +2,22 @@ html {
     font-size: 20px;
 }
 
+.antes-head {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+
+#curri {
+    font-size: 13px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 div {
     background-color: rgb(54, 54, 54);
     color: white;
