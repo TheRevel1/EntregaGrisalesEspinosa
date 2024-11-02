@@ -354,7 +354,7 @@ a {
 }
 
 @media (min-width: 100px) and (max-width: 1000px) {
-
+    
     nav {
         display: block;
     }
