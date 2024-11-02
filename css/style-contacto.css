@@ -59,23 +59,57 @@ h2{
 /*SECCION CONTACTO*/
 
 .contenido-contacto {
+    background-color: rgb(111, 96, 121); color: white;
     display: flex;
+    padding-left: 300px;
+    padding-right: 300px;
+    justify-content: space-evenly;
+    gap: 100px;
+    margin-bottom: 50px;
 }
 
 .redes-sociales {
+    background-color: rgb(111, 96, 121); color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    font-size: 35px;
+    border-bottom: 0px;
 }
 
 #linkedin-redsocial {
-    width: 50px;
+    width: 100px;
 }
 
 #whats-redsocial {
-    width: 45px;
+    width: 90px;
 }
 
 #insta-redsocial {
-    width: 40px;
+    width: 75px;
+}
+
+.imagen-contacto {
+    background-color: rgb(111, 96, 121); color: white;
+    border-bottom: 0px;
+}
+
+#imagen-contacto {
+    background-color: rgb(111, 96, 121); color: white;
+    height: auto;
+    width: 450px;
+    border-radius: 30px;
+}
+
+.datos-contacto {
+    background-color: rgb(111, 96, 121); color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 35px;
+    border-bottom: 0px;
 }
 
 /*FIN SECCION CONTACTO*/
