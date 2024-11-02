@@ -21,6 +21,9 @@ nav {
     justify-content: space-evenly;
 }
 
+.version-mobile {
+    display: none;
+}
 
 body{
     background-color: rgb(111, 96, 121);
@@ -53,6 +56,30 @@ h2{
     font-size: 2em;
 }
 
+/*SECCION CONTACTO*/
+
+.contenido-contacto {
+    display: flex;
+}
+
+.redes-sociales {
+    text-align: center;
+}
+
+#linkedin-redsocial {
+    width: 50px;
+}
+
+#whats-redsocial {
+    width: 45px;
+}
+
+#insta-redsocial {
+    width: 40px;
+}
+
+/*FIN SECCION CONTACTO*/
+
 footer {
     background-color: rgb(54, 54, 54);
     color: white;
@@ -75,4 +102,13 @@ footer {
 
 a {
     color: white;
+}
+
+/* MEDIA QUERY MOBILE*/
+
+@media (min-width: 100px) and (max-width: 1000px) {
+
+    .version-desktop {
+        display: none;
+    }
 }
