@@ -284,7 +284,7 @@ a {
         margin-right: 10px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 70px 250px 500px;
+        grid-template-rows: 70px 250px 550px;
         row-gap: 10px;
         column-gap: 0px;
     }
@@ -350,7 +350,7 @@ a {
         margin-right: 10px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 50px 250px 600px;
+        grid-template-rows: 50px 250px 650px;
         row-gap: 10px;
         column-gap: 0px;
     }
@@ -412,7 +412,7 @@ a {
         margin-right: 10px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 50px 250px 300px;
+        grid-template-rows: 50px 250px 350px;
         row-gap: 10px;
         column-gap: 0px;
     }
