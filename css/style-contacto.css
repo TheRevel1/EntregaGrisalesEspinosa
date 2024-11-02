@@ -153,4 +153,9 @@ a {
     .version-desktop {
         display: none;
     }
+
+    nav {
+        display: block;
+    }
+
 }
