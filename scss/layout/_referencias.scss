@@ -1,0 +1,444 @@
+/*SECCION MIGUEL*/
+
+.miguel-seccion {
+    background-color: rgb(111, 96, 121);
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    border-bottom: 2px white;
+}
+
+.miguel-fotosec {
+    background-color: rgb(111, 96, 121);
+    align-items: center;
+    font-size: 40px;
+    border-bottom: 0px;
+
+    #img {
+        height: auto;
+        width: 450px;
+        border-radius: 20px;
+    }
+}
+
+.miguel-parrafo {
+    background-color: rgb(111, 96, 121);
+    font-style: italic;
+    text-align: justify;
+    text-align: left;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 0px;
+
+    #miguel-parrafo {
+        font-size: 25px;
+    }
+}
+
+.miguel-audio {
+    background-color: rgb(111, 96, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #miguel-audio {
+        width: 1000px;
+        margin-bottom: 25px;
+    }
+}
+
+/*SECCION DIEGO*/
+
+.diego-seccion {
+    background-color: rgb(111, 96, 121);
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    border-bottom: 2px white;
+}
+
+.diego-fotosec {
+    background-color: rgb(111, 96, 121);
+    align-items: center;
+    font-size: 40px;
+    border-bottom: 0px;
+
+    #diego-foto {
+        height: auto;
+        width: 450px;
+        border-radius: 20px;
+    }
+}
+
+.diego-parrafo {
+    background-color: rgb(111, 96, 121);
+    font-style: italic;
+    text-align: justify;
+    text-align: left;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 0px;
+
+    #diego-parrafo {
+        font-size: 25px;
+    }
+}
+
+.diego-audio {
+    background-color: rgb(111, 96, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #diego-audio {
+        width: 1000px;
+        margin-bottom: 25px;
+    }
+}
+
+/*SECCION CRISTIAN*/
+
+.cristian-seccion {
+    background-color: rgb(111, 96, 121);
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    border-bottom: 2px white;
+}
+
+.cristian-fotosec {
+    background-color: rgb(111, 96, 121);
+    align-items: center;
+    font-size: 40px;
+    border-bottom: 0px;
+
+    #cristian-foto {
+        height: auto;
+        width: 450px;
+        border-radius: 20px;
+    }
+}
+
+
+.cristian-parrafo {
+    background-color: rgb(111, 96, 121);
+    font-style: italic;
+    text-align: justify;
+    text-align: left;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 0px;
+
+    #cristian-parrafo {
+        font-size: 25px;
+    }
+}
+
+.cristian-audio {
+    background-color: rgb(111, 96, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #cristian-audio {
+        width: 1000px;
+        margin-bottom: 25px;
+    }
+}
+
+/*SECCION BRYAN*/
+
+.bryan-seccion {
+    background-color: rgb(111, 96, 121);
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    border-bottom: 2px white;
+}
+
+.bryan-fotosec {
+    background-color: rgb(111, 96, 121);
+    align-items: center;
+    font-size: 40px;
+    border-bottom: 0px;
+}
+
+#bryan-foto {
+    height: auto;
+    width: 450px;
+    border-radius: 20px;
+}
+
+.bryan-parrafo {
+    background-color: rgb(111, 96, 121);
+    font-style: italic;
+    text-align: justify;
+    text-align: left;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 0px;
+}
+
+#bryan-parrafo {
+    font-size: 25px;
+}
+
+.bryan-audio {
+    background-color: rgb(111, 96, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bryan-audio {
+    width: 1000px;
+    margin-bottom: 100px;
+}
+
+/*FIN SECCION REFERENCIAS*/
+
+/* MEDIA QUERY MOBILE*/
+
+@media (min-width: 100px) and (max-width: 1000px) {
+
+    /*SECCION MIGUEL*/
+
+    .miguel-seccion {
+        background-color: rgb(111, 96, 121);
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        border-bottom: 2px white;
+
+        .miguel-fotosec {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(111, 96, 121);
+            font-size: 40px;
+            border-bottom: 0px;
+
+            img {
+                height: auto;
+                width: 200px;
+                border-radius: 20px;
+            }
+        }
+    }
+
+    .miguel-parrafo {
+        background-color: rgb(111, 96, 121);
+        font-style: italic;
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        border-bottom: 0px;
+
+        #miguel-parrafo {
+            font-size: 15px;
+        }
+    }
+
+    .miguel-audio {
+        background-color: rgb(111, 96, 121);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 10px;
+
+        #miguel-audio {
+            width: 1000px;
+            margin-bottom: 25px;
+        }
+    }
+
+    /*SECCION DIEGO*/
+
+    .diego-seccion {
+        background-color: rgb(111, 96, 121);
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        border-bottom: 2px white;
+
+        .diego-fotosec {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(111, 96, 121);
+            align-items: center;
+            font-size: 40px;
+            border-bottom: 0px;
+
+            #diego-foto {
+                height: auto;
+                width: 150px;
+                border-radius: 20px;
+            }
+        }
+    }
+
+    .diego-parrafo {
+        background-color: rgb(111, 96, 121);
+        font-style: italic;
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        border-bottom: 0px;
+
+        #diego-parrafo {
+            font-size: 15px;
+        }
+    }
+
+    .diego-audio {
+        background-color: rgb(111, 96, 121);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 10px;
+
+        #diego-audio {
+            width: 1000px;
+            margin-bottom: 25px;
+        }
+    }
+
+    /*SECCION CRISTIAN*/
+
+    .cristian-seccion {
+        background-color: rgb(111, 96, 121);
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        border-bottom: 2px white;
+
+        .cristian-fotosec {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(111, 96, 121);
+            align-items: center;
+            font-size: 40px;
+            border-bottom: 0px;
+
+            #cristian-foto {
+                height: auto;
+                width: 250px;
+                border-radius: 20px;
+            }
+
+            p {
+                font-size: smaller;
+            }
+        }
+    }
+
+    .cristian-parrafo {
+        background-color: rgb(111, 96, 121);
+        font-style: italic;
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        border-bottom: 0px;
+
+        #cristian-parrafo {
+            font-size: 15px;
+        }
+    }
+
+    .cristian-audio {
+        background-color: rgb(111, 96, 121);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 10px;
+
+        #cristian-audio {
+            width: 1000px;
+            margin-bottom: 25px;
+        }
+    }
+
+    /*SECCION BRYAN*/
+
+    .bryan-seccion {
+        background-color: rgb(111, 96, 121);
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        border-bottom: 0px white;
+
+        .bryan-fotosec {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(111, 96, 121);
+            align-items: center;
+            font-size: 40px;
+            border-bottom: 0px;
+
+            #bryan-foto {
+                height: auto;
+                width: 200px;
+                border-radius: 20px;
+            }
+        }
+    }
+
+    .bryan-parrafo {
+        background-color: rgb(111, 96, 121);
+        font-style: italic;
+        text-align: justify;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        border-bottom: 0px;
+
+        #bryan-parrafo {
+            font-size: 15px;
+        }
+    }
+
+    .bryan-audio {
+        background-color: rgb(111, 96, 121);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 10px;
+
+        #bryan-audio {
+            width: 1000px;
+            margin-bottom: 50px;
+        }
+    }
+
+    /*FIN SECCION REFERENCIAS*/
+}
