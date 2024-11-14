@@ -79,17 +79,22 @@ body .titulo-perfil #titulo-perfil {
   margin-bottom: 0px;
   border-bottom: 2px white;
 }
-
-.miguel-fotosec {
-  background-color: rgb(111, 96, 121);
+.miguel-seccion .miguel-fotosec {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  background-color: rgb(111, 96, 121);
   font-size: 40px;
   border-bottom: 0px;
 }
-.miguel-fotosec #img {
+.miguel-seccion .miguel-fotosec #miguel-foto {
   height: auto;
   width: 450px;
   border-radius: 20px;
+}
+.miguel-seccion .miguel-fotosec p {
+  align-items: center;
 }
 
 .miguel-parrafo {
@@ -127,14 +132,16 @@ body .titulo-perfil #titulo-perfil {
   margin-bottom: 0px;
   border-bottom: 2px white;
 }
-
-.diego-fotosec {
-  background-color: rgb(111, 96, 121);
+.diego-seccion .diego-fotosec {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  background-color: rgb(111, 96, 121);
   font-size: 40px;
   border-bottom: 0px;
 }
-.diego-fotosec #diego-foto {
+.diego-seccion .diego-fotosec #diego-foto {
   height: auto;
   width: 450px;
   border-radius: 20px;
@@ -175,14 +182,16 @@ body .titulo-perfil #titulo-perfil {
   margin-bottom: 0px;
   border-bottom: 2px white;
 }
-
-.cristian-fotosec {
-  background-color: rgb(111, 96, 121);
+.cristian-seccion .cristian-fotosec {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  background-color: rgb(111, 96, 121);
   font-size: 40px;
   border-bottom: 0px;
 }
-.cristian-fotosec #cristian-foto {
+.cristian-seccion .cristian-fotosec #cristian-foto {
   height: auto;
   width: 450px;
   border-radius: 20px;
@@ -223,15 +232,16 @@ body .titulo-perfil #titulo-perfil {
   margin-bottom: 0px;
   border-bottom: 2px white;
 }
-
-.bryan-fotosec {
-  background-color: rgb(111, 96, 121);
+.bryan-seccion .bryan-fotosec {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  background-color: rgb(111, 96, 121);
   font-size: 40px;
   border-bottom: 0px;
 }
-
-#bryan-foto {
+.bryan-seccion .bryan-fotosec #bryan-foto {
   height: auto;
   width: 450px;
   border-radius: 20px;
