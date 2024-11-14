@@ -88,7 +88,7 @@ body .titulo-perfil #titulo-perfil {
   font-size: 40px;
   border-bottom: 0px;
 }
-.miguel-seccion .miguel-fotosec #miguel-foto {
+.miguel-seccion .miguel-fotosec img {
   height: auto;
   width: 450px;
   border-radius: 20px;
