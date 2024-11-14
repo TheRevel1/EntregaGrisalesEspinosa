@@ -21,21 +21,20 @@ body {
     }
 }
 
-
-
 /* MEDIA QUERY MOBILE*/
 
 @media (min-width: 100px) and (max-width: 1000px) {
 
+    body {
     .titulo-perfil {
         text-decoration: none;
         justify-content: center;
         align-items: center;
-
         #titulo-perfil {
             font-size: 40px;
             text-align: center;
             margin-bottom: 0px;
-        }
+            }        
+        }    
     }
 }
